@@ -1,9 +1,11 @@
 <resources>
 
+    <item name="splashBlue" type="color">#3399FF</item>
+
     <style name="AppTheme.NoActionBar">
         <item name="windowActionBar">false</item>
         <item name="windowNoTitle">true</item>
         <item name="android:windowDrawsSystemBarBackgrounds">true</item>
-        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:statusBarColor">@color/splashBlue</item>
     </style>
 </resources>
